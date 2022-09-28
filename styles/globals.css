@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination-bullets {
+	margin-top: 20px;
+	text-align: center;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+.swiper-pagination-bullet {
+	width: 12px;
+	height: 12px;
+	background: white;
+	border: 1px solid #2c2f32;
+	border-radius: 50px;
+	cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+	width: 12px;
+	height: 12px;
+	background: #2c2f32;
+	border-radius: 50px;
+	cursor: pointer;
+}
