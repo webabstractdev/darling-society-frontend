@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Index() {
 	return (
@@ -9,6 +10,8 @@ export default function Index() {
 				<meta name="description" content="Darling Society" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
+
+			<Script src="//embed.typeform.com/next/embed.js"></Script>
 
 			<div className="container mx-auto">
 				<div className="px-4 mt-10 lg:hidden">
@@ -79,9 +82,15 @@ export default function Index() {
 								<br />
 								Deck
 							</h2>
-							<button className="absolute bottom-10 left-0 right-0 w-[173px] mx-auto bg-base-black text-white py-2 lg:bottom-20">
+
+							<a
+								href="https://darlingmagazine.app.box.com/s/mx4i43gyzd7b2bvigznqkzf1wp4s50zn"
+								target="_blank"
+								rel="noreferrer"
+								className="absolute text-center bottom-10 left-0 right-0 w-[173px] mx-auto bg-base-black text-white py-2 lg:bottom-20"
+							>
 								CLICK HERE
-							</button>
+							</a>
 						</div>
 
 						<div className="grid items-center relative bg-mission-2 bg-no-repeat bg-cover w-auto h-[345px] lg:m-0 lg:w-[630px] lg:h-[630px]">
@@ -90,7 +99,13 @@ export default function Index() {
 								<br />
 								Ambassador
 							</h2>
-							<button className="absolute bottom-10 left-0 right-0 w-[173px] mx-auto bg-base-black text-white py-2 lg:bottom-20">
+
+							<button
+								data-tf-popup="dLY0FaeI"
+								data-tf-iframe-props="title=Ambassador Application"
+								data-tf-medium="snippet"
+								className="absolute text-center bottom-10 left-0 right-0 w-[173px] mx-auto bg-base-black text-white py-2 lg:bottom-20"
+							>
 								CLICK HERE
 							</button>
 						</div>
@@ -140,11 +155,17 @@ export default function Index() {
 								<h3 className="text-white font-serif text-2xl lg:text-3xl lg:leading-[44px]">
 									Darling we’re so excited to get to know you!
 								</h3>
-								<p className="text-sm font-sans text-white mt-4 lg:text-base">
+								<p className="text-sm font-sans text-white my-5 lg:text-base">
 									Please fill out the following application thoughtfully and
 									authentically.
 								</p>
-								<button className="bg-butter w-full py-4 text-base-black font-sans mt-4 lg:w-[200px]">
+
+								<button
+									data-tf-popup="dLY0FaeI"
+									data-tf-iframe-props="title=Ambassador Application"
+									data-tf-medium="snippet"
+									className="bg-butter w-full  text-base-black font-sans h-[56px] lg:w-[200px]"
+								>
 									Fill out the form
 								</button>
 							</div>
