@@ -224,7 +224,7 @@ export default function Index() {
 								height="22"
 							/>
 							<p className="text-white font-serif font-light italic text-sm">
-								- All rights reservedm 2022
+								- All rights reserved 2022
 							</p>
 						</div>
 					</div>
