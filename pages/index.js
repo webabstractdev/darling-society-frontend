@@ -13,19 +13,19 @@ export default function Index() {
 
 			<Script src="//embed.typeform.com/next/embed.js"></Script>
 
-			<div className="container mx-auto">
-				<div className="px-4 mt-10 lg:hidden">
+			<div className="mt-[51px]">
+				<div className="lg:hidden">
 					<Image
-						src="/header.gif"
+						src="/header_slow.gif"
 						layout="responsive"
 						width="344"
 						height="240"
 						alt="darling"
 					/>
 				</div>
-				<div className="max-w-[1280px] mx-auto mt-10 hidden lg:block">
+				<div className="hidden lg:block">
 					<Image
-						src="/header.gif"
+						src="/header_slow.gif"
 						layout="responsive"
 						width="1290"
 						height="900"
@@ -112,7 +112,7 @@ export default function Index() {
 					</div>
 				</div>
 
-				<div className="px-4 mt-16 lg:hidden">
+				<div className="mt-16 lg:hidden">
 					<Image
 						src="/moodboard-mobile.png"
 						layout="responsive"
@@ -121,7 +121,7 @@ export default function Index() {
 						alt="darling"
 					/>
 				</div>
-				<div className="mt-16 hidden lg:block max-w-[1280px] mx-auto">
+				<div className="mt-[160px] hidden lg:block">
 					<Image
 						src="/moodboard-desktop.png"
 						layout="responsive"
@@ -141,91 +141,159 @@ export default function Index() {
 							target="_blank"
 							rel="noreferrer"
 							href="mailto:info@darlingsociety.com"
-							className="font-bold"
+							className="font-bold hover:opacity-70 duration-200"
 						>
 							info@darlingsociety.com
 						</a>
 					</p>
 				</div>
 
-				<div className="bg-base-black py-10 px-4 mt-20 lg:mt-[160px] lg:py-20">
-					<div className=" lg:w-[1000px] lg:mx-auto">
-						<div className="lg:grid lg:grid-cols-2 lg:gap-36">
-							<div>
-								<h3 className="text-white font-serif text-2xl lg:text-3xl lg:leading-[44px]">
-									Darling we’re so excited to get to know you!
-								</h3>
-								<p className="text-sm font-sans text-white my-5 lg:text-base">
-									Please fill out the following application thoughtfully and
-									authentically.
-								</p>
-
-								<button
-									data-tf-popup="dLY0FaeI"
-									data-tf-iframe-props="title=Ambassador Application"
-									data-tf-medium="snippet"
-									className="bg-butter w-full  text-base-black font-sans h-[56px] lg:w-[200px]"
-								>
-									Fill out the form
-								</button>
-							</div>
-
-							<div className="text-sm text-white font-sans flex justify-between mt-8 leading-10 lg:m-0 lg:justify-start lg:gap-28">
-								<div>
-									<p>Home</p>
-									<p>Our Story</p>
-									<p>Become A Darling</p>
-									<p>Ambassador</p>
-								</div>
-								<div>
-									<p>Cookie Policy</p>
-									<p>Privacy Policy</p>
-								</div>
-							</div>
+				<div className="mt-[80px] mb-10 p-4 lg:flex lg:justify-between lg:max-w-screen-xl lg:mx-auto xl:p-0 lg:mt-[200px] lg:mb-[100px]">
+					<div>
+						<p className="font-bold text-base-black">ABOUT DARLING</p>
+						<div className="grid gap-3 my-4">
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://blog.darlingmagazine.org/mission/"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								OUR MISSION
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://blog.darlingmagazine.org/jobs-and-internships/"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								JOBS + INTERNSHIPS
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://shop.darlingmagazine.org/pages/terms-conditions"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								TERMS & CONDITIONS
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://shop.darlingmagazine.org/pages/returns-and-exchanges-policy"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								RETURN POLICY
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://shop.darlingmagazine.org/pages/privacy-policy"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								PRIVACY POLICY
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://blog.darlingmagazine.org/contact/"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								CONTACT US
+							</a>
 						</div>
+					</div>
 
-						<div className="flex gap-6 mt-10 justify-center lg:justify-start">
-							<Image
-								src="/fb.svg"
-								layout="fixed"
-								width="24"
-								height="24"
-								alt="fb"
-							/>
-							<Image
-								src="/twt.svg"
-								layout="fixed"
-								width="24"
-								height="24"
-								alt="twitter"
-							/>
-							<Image
-								src="/linked.svg"
-								layout="fixed"
-								width="24"
-								height="24"
-								alt="linkedin"
-							/>
-							<Image
-								src="/ig.png"
-								layout="fixed"
-								width="24"
-								height="24"
-								alt="instagram"
-							/>
+					<div>
+						<p className="font-bold text-base-black">SHOP</p>
+						<div className="grid gap-3 my-4">
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://shop.darlingmagazine.org/collections/mirror-decals"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								MIRROR DECALS
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://shop.darlingmagazine.org/collections/home"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								HOME DECOR
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://shop.darlingmagazine.org/collections/paper-good"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								PAPER GOODS
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://shop.darlingmagazine.org/collections/games"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								GAMES + CRAFTS
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://shop.darlingmagazine.org/blogs/darling-blog"
+								className="block text-sm text-gray-500 hover:opacity-70 hover:underline duration-200"
+							>
+								DARLING SOCIETY
+							</a>
 						</div>
+					</div>
 
-						<div className="mt-10 flex gap-4 items-center justify-center lg:pb-[70px] lg:mt-14">
-							<Image
-								src="/logo.svg"
-								layout="fixed"
-								alt="logo"
-								width="68"
-								height="22"
-							/>
-							<p className="text-white font-serif font-light italic text-sm">
-								- All rights reserved 2022
-							</p>
+					<div>
+						<p className="font-bold text-base-black">KEEP IN TOUCH</p>
+						<div className="flex gap-4 items-center mt-4">
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://www.facebook.com/darlingmagazine"
+								className="block hover:opacity-70 duration-200"
+							>
+								<Image
+									src="/facebook.svg"
+									alt="logo"
+									layout="fixed"
+									width="26"
+									height="26"
+								/>
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://www.instagram.com/darling/"
+								className="block hover:opacity-70 duration-200"
+							>
+								<Image
+									src="/instagram.svg"
+									alt="logo"
+									layout="fixed"
+									width="26"
+									height="26"
+								/>
+							</a>
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://www.pinterest.com/darlingmagazine/"
+								className="block hover:opacity-70 duration-200"
+							>
+								<Image
+									src="/pinterest.svg"
+									alt="logo"
+									layout="fixed"
+									width="26"
+									height="26"
+								/>
+							</a>
 						</div>
 					</div>
 				</div>
