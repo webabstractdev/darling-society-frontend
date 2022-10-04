@@ -34,45 +34,6 @@ export default function Index() {
 				</div>
 
 				<div className="px-4 lg:p-0">
-					<h3 className="text-base-black font-serif text-4xl text-center mt-16 lg:mt-[160px] lg:text-5xl">
-						Hi friend!
-					</h3>
-
-					<p className="text-sm text-base-black leading-6 font-sans font-light mt-6 lg:w-[630px] lg:mx-auto lg:text-base lg:leading-8">
-						I have something I&apos;ve been SO eager to share with you as an
-						insider of the Darling community! As someone who shares a love for
-						uplifting women, it’s only natural that YOU would be the first to
-						know what myself and the Darling team have been dreaming up over the
-						past 10 months.
-						<br />
-						<br />I am overjoyed to announce that a long term vision of our
-						company is coming true. We are launching a{" "}
-						<span className="font-bold">
-							Darling clothing collection in 2023
-						</span>{" "}
-						along with the expansion of home goods! We would love for you to be
-						a part of it through our new ambassador program called the Darling
-						Society.
-						<br />
-						<br />I am overjoyed to announce that a long term vision of our
-						company is coming true. We are launching a Darling clothing
-						collection in 2023 along with the expansion of home goods! We would
-						love for you to be a part of it through our new ambassador program
-						called the Darling Society.
-					</p>
-				</div>
-
-				<div className="px-4 lg:p-0">
-					<h3 className="text-base-black font-serif text-4xl text-center mt-16 lg:text-5xl">
-						Mission
-					</h3>
-
-					<p className="text-sm text-base-black leading-6 font-sans font-light mt-6 lg:w-[630px] lg:mx-auto lg:text-base lg:leading-8">
-						Ambassadors are women that want to bring the Darling mission to
-						their community and are trained to help women shift negative mental
-						narratives around themselves and their bodies.
-					</p>
-
 					<div className="mt-16 grid gap-4 lg:p-0 lg:mt-[160px] lg:grid-cols-2 lg:gap-7 lg:max-w-screen-xl lg:mx-auto">
 						<div className="grid items-center relative bg-mission-1 bg-no-repeat bg-cover w-auto h-[345px] lg:m-0 lg:w-[630px] lg:h-[630px]">
 							<h2 className="font-serif italic leading-[44px] text-white text-4xl text-center lg:text-5xl lg:leading-[64px]">
